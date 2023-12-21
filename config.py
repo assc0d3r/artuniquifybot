@@ -24,10 +24,10 @@ class Config(object):
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1187675214").split())
 
     # session name
-    TG_USER_SESSION_NAME = os.environ.get("TG_USER_SESSION_NAME", "oxymodelart")
+    TG_USER_SESSION_NAME = os.environ.get("TG_USER_SESSION_NAME", "arttgcf")
 
     # tg user session string
-    TG_USER_SESSION_STRING = os.environ.get("TG_USER_SESSION_STRING", "1BJWap1sBu39Ddw2DOQaifrJGIdQucKkAZCuv4WorKu9vnmMJCK8dhbY_MDmlHPlgBxyKtL_kejFqD0nEGCrbvxUXaxjTQl__UICAU3mCYxawTbG3AL4r0kU_lxCxxVrsY33GN0kknH3yQe")
+    TG_USER_SESSION_STRING = os.environ.get("TG_USER_SESSION_STRING", "1BJWap1wBu7jiwHW_Y_WzZSyn0WrFwrdBDvr2bNeYNgJz9GDFdQxq571rrLYi1jCFDR4mU0v2Zmqr6O9tHnjzuAAlXtpSeebTikVyUredDVpNmTQaiAYnnvUJTU-wLOOC76WOQe5Ub714b3TEAfEUWz_U6pLnkNOuJ-zzU40YPXqZ9yLADy975Ei7ek_mP8cM3alxCh1hBihfK_sn4MRi5E8axvB0q5IZYzuH_F-Wvp4_dVU_i5JaUpD-a1NjLIyTdTl5Ee5ASQG27Z35H-lW2d--ee6jv4wDsp-0P7SxMRCuPg_trFyQbE7n1SLkxPZGwz222rgZ4tuhy-kyJjN9fWBCwKFKH6g=")
 
 
 def LOGGER(name: str) -> logging.Logger:
